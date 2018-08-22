@@ -1,0 +1,129 @@
+
+@media only screen and (min-width: 920px) and (max-width: 1080px) {
+    .table {
+        position: relative;
+        left: 100px;
+    }
+}
+
+@media only screen and (min-width: 1080px) {
+    .table {
+        position: relative;
+        left: 150px;
+    }
+}
+
+@media only screen and (min-width: 1220px) {
+    .navbar-nav .nav-item{
+        position: relative !important; 
+        left: 43px;
+    }
+}
+
+body {
+    background-color: #000;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#code-font {
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+/**************************/
+/********** MAIN **********/
+/**************************/
+
+body {
+    padding-bottom: 10px;
+}
+
+.main {
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 200px;
+    margin-bottom: 10px;
+}
+
+.navbar .navbar-expand-lg .navbar-light .bg-light {
+    background-color: #fff;
+    
+}
+
+#topMenu a {
+    color: #FFC940;
+}
+
+p {
+    margin: 30px 10px 30px 10px;
+    padding: 20px 10px 20px 10px;
+}
+
+.jam {
+    color: #E7236E;
+}
+
+.btn-group {
+    margin: 13px;
+    padding-top: 40px;
+}
+
+/**************************/
+/******** INVOLVED ********/
+/**************************/
+
+.involved{
+    margin: 10px;
+    padding: 20px 10px;
+}
+
+#volunteerQ {
+    margin: 10px;
+    padding: 0px 10px 10px 10px;
+    text-align: left;
+}
+
+hr {
+    background-color: #E7236E;
+    width: 75%;
+    height: 3px;
+}
+
+h2 {
+    padding: 30px;
+}
+
+.involved-link {
+    color: #E7236E;
+}
+
+.involved-link:hover {
+    color: #FFC940;
+    text-decoration: none;
+}
+
+/**************************/
+/********AGENDA************/
+/**************************/
+
+
+th {
+    color: #E7236E !important;
+}
+
+td {
+    text-align: left;
+    border-left: 1px !important;
+    padding-bottom: 50px !important;
+}
+
+.agendaList {
+    display: block;
+    text-align: left;
+}
+
+.projectNames {
+    display: block;
+    position: relative;
+    left: 30px;
+}
