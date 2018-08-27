@@ -1,25 +1,4 @@
 
-@media only screen and (min-width: 920px) and (max-width: 1080px) {
-    .table {
-        position: relative;
-        left: 100px;
-    }
-}
-
-@media only screen and (min-width: 1080px) {
-    .table {
-        position: relative;
-        left: 150px;
-    }
-}
-
-@media only screen and (min-width: 1220px) {
-    .navbar-nav .nav-item{
-        position: relative !important; 
-        left: 43px;
-    }
-}
-
 body {
     background-color: #000;
     font-family: 'Open Sans', sans-serif;
@@ -48,6 +27,17 @@ body {
 .navbar .navbar-expand-lg .navbar-light .bg-light {
     background-color: #fff;
     
+}
+
+.counter-container {
+    background-color: #000;
+    color: #FFC940;
+    margin-top: 50px;
+    padding: 0;
+}
+
+#num {
+    font-size: 16px;
 }
 
 #topMenu a {
@@ -103,7 +93,7 @@ h2 {
 }
 
 /**************************/
-/********AGENDA************/
+/******** AGENDA **********/
 /**************************/
 
 
@@ -150,6 +140,11 @@ td {
     text-decoration: none;
 }
 
+#sps > a:visited {
+    color: #FFC940;
+    text-decoration: none;
+}
+
 .list-group-item {
     border: none;
 }
@@ -161,6 +156,28 @@ td {
 /**************************/
 /***** MEDIA QUERIES ******/
 /*************************/
+
+
+@media only screen and (min-width: 920px) and (max-width: 1080px) {
+    .table {
+        position: relative;
+        left: 100px;
+    }
+}
+
+@media only screen and (min-width: 1080px) {
+    .table {
+        position: relative;
+        left: 150px;
+    }
+}
+
+@media only screen and (min-width: 1220px) {
+    .navbar-nav .nav-item{
+        position: relative !important; 
+        left: 43px;
+    }
+}
 
 @media only screen and (max-width: 380px) {
 

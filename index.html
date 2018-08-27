@@ -38,7 +38,12 @@
                     </ul>
                 </div>
             </nav>
-            <p id="counter"></p>
+            <div class="container-fluid">
+                <div class="counter-container">
+                    <h1 id="counter"></h1>
+                    <span>day(s) before Raspberry Jam!</span>
+                </div>
+            </div>
             <p>This is a <b><span class="jam">FREE</span></b> event to help people of all experience levels further their learning of Python code, Mathematica code, and
             Circuit/Project design through interactive workshops using the <span class="jam">Raspberry Pi</span> micro-controller. There will also be presentations
             after the workshops finish, presentations will be on projects people have worked on using the <span class="jam">Raspberry Pi</span>. Projects will
@@ -64,5 +69,25 @@
         crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
+    <!------inspired by w3schools.com------->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+        let countDownDate = new Date("Oct 15, 2018 09:00:00").getTime();
+            let x = setInterval(function () {
+                let now = new Date().getTime();
+                let distance = countDownDate - now;
+                let days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                let hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                let seconds = Math.floor((distance % (1000 * 60)) / 1000);
+                document.getElementById("counter").innerHTML = days;
+                if (distance < 0) {
+                    clearInterval(x);
+                    document.getElementById("counter").innerHTML = "See you there!";
+                }
+            }, 1000);
+        });
+
+    </script>
 </body>
 </html>
