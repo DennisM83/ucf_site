@@ -127,3 +127,47 @@ td {
     position: relative;
     left: 30px;
 }
+
+/***************************/
+/****** CONTRIBUTONS *******/
+/**************************/
+
+.contrib {
+    margin: 10px;
+    padding: 20px 10px;
+}
+
+#sps {
+    font-size: 24px;
+}
+
+#sps > a:link {
+    color: #E7236E;
+}
+
+#sps > a:hover {
+    color: #FFC940;
+    text-decoration: none;
+}
+
+.list-group-item {
+    border: none;
+}
+
+#other {
+    font-size: 24px;
+}
+
+/**************************/
+/***** MEDIA QUERIES ******/
+/*************************/
+
+@media only screen and (max-width: 380px) {
+
+    .contrib {
+        font-size: 32px !important;
+        margin: 10px;
+        padding: 20px 10px;
+    }
+
+}
